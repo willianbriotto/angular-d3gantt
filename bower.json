@@ -1,0 +1,27 @@
+{
+  "name": "angular-d3gantt",
+  "authors": [
+    "Willian Briotto <willianbriotto@gmail.com>"
+  ],
+  "description": "Directive D3Gantt to AngularJS",
+  "main": "angular-d3gantt.js",
+  "moduleType": [],
+  "keywords": [
+    "d3gantt",
+    "angular",
+    "gantt"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/willianbriotto/angular-d3gantt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+     "angular": "~1.5.3",
+     "d3": "*"
+  }
+}

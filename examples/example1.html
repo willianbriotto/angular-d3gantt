@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br" ng-app="TestApp">
+    <head>
+        <title>Angular D3Gantt - Example 1</title>
+        <meta chartset="utf-8">
+
+        <script src="../libs/angular/angular.min.js"></script>
+        <script src="../libs/d3/d3.min.js"></script>
+        <script src="../libs/gantt-chart-d3.js"></script>
+         
+        <script src="../angular-d3gantt.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <style type="text/css">
+            .bar-progress {
+                fill: #22FF00;
+            }
+            .bar-stop {
+                fill: #AA2200;
+            }
+            .bar-off {
+                fill: #000000;
+            }
+        </style>
+    </head>
+    <body ng-controller="MainController">
+        <h1>{{title}}</h1>
+        <button ng-click="addTask()">Add Tasks</button>
+        <button ng-click="removeTask()">Remove Last Task</button>
+        <div class="container">
+            <d3-gantt id="d3gantt" data="chart_data"></d3-gantt>
+        </div>
+    </body>
+</html>
