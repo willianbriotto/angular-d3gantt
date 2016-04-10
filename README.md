@@ -1,2 +1,2 @@
-# anguar-d3gant
+# angular-d3gant
 D3Gantt directive for AngularJS
